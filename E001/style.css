@@ -1,130 +1,130 @@
 /* General Styles */
 body {
-    font-family:  Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  font-family:  Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color:#fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: monospace;
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color:crimson;
+}
+
+/* Banner Styles */
+#banner {
+  background-image: url("/405857-cool-coding-wallpaper-1920x1088-samsung-galaxy.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:#fff;
+}
+
+#banner h2 {
+  font-family: monospace;
+  font-size: 48px;
+  margin: 0;
+}
+
+#banner p {
+  font-size: 24px;
+}
+
+/* Features Styles */
+#features {
+  background-color:slategrey;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color:azure;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  flex: 1 1 300px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.feature p {
   
-  /* Header Styles */
-  header {
-    background-color: #333;
-    color:#fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-family: monospace;
-    margin: 0;
-    font-size: 32px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: all 0.3s ease;
-  }
-  
-  nav a:hover {
-    color:crimson;
-  }
-  
-  /* Banner Styles */
-  #banner {
-    background-image: url("/E001/405857-cool-coding-wallpaper-1920x1088-samsung-galaxy.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-  }
-  
-  #banner h2 {
-    font-family: monospace;
-    font-size: 48px;
-    margin: 0;
-  }
-  
-  #banner p {
-    font-size: 24px;
-  }
-  
-  /* Features Styles */
-  #features {
-    background-color:slategrey;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .feature {
-    background-color:azure;
-    margin: 20px;
-    padding: 30px;
-    text-align: center;
-    flex: 1 1 300px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .feature h3 {
-    margin: 0;
-    font-size: 28px;
-  }
-  
-  .feature p {
-    
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  /* Courses Styles */
-  #courses {
-    background-color:slategrey;
-    padding: 50px;
-    text-align: center;
-  }
-  
-  #courses h2 {
-    margin: 0;
-    font-size: 36px;
-  }
-  
-  #courses ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  #courses li {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 1 1 300px;
-    text-align: center;
-  }
-  footer {
-    background-color:crimson;
-  }
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Courses Styles */
+#courses {
+  background-color:slategrey;
+  padding: 50px;
+  text-align: center;
+}
+
+#courses h2 {
+  margin: 0;
+  font-size: 36px;
+}
+
+#courses ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#courses li {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+  text-align: center;
+}
+footer {
+  background-color:crimson;
+}
