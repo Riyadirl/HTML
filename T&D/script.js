@@ -1,3 +1,4 @@
+//function
 function updateTime() {
   const now = new Date();
   const timeString = now.toLocaleTimeString();
@@ -5,5 +6,5 @@ function updateTime() {
   document.getElementById("time").innerHTML = timeString;
   document.getElementById("date").innerHTML = dateString;
 }
-
+//call the function
 setInterval(updateTime, 1000);
