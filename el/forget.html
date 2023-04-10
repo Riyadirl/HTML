@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project L - Forgot Password</title>
+        <link rel="stylesheet" type="text/css" href="s2.css">
+        <script src="mpl.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Forgot Password</h1>
+            <form>
+
+                <input type="email" id="email" name="email" placeholder="Enter
+                    your email address" required>
+
+                <input type="submit" value="Submit">
+            </form>
+            <div class="signup">
+                Remember your password? <a href="#">Log in now!</a>
+            </div>
+        </div>
+        <script>
+            const form = document.querySelector('form');
+const email = document.querySelector('#email');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  // Validate email
+  if (email.value === '') {
+    alert('Please enter your email address.');
+    return;
+  }
+
+  // Submit form data to server
+  // TODO: Implement server-side code
+});
+
+        </script>
+    </body>
+</html>

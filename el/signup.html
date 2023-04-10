@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project L - Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="s1.css">
+        <script src="mpl.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Sign Up</h1>
+            <form>
+
+                <input type="text" id="name" name="name" placeholder="Enter your
+                    name" required>
+
+                <input type="email" id="email" name="email" placeholder="Enter
+                    your email address" required>
+
+                <input type="password" id="password" name="password"
+                    placeholder="Enter your password" required>
+
+                <input type="password" id="confirm-password"
+                    name="confirm-password"
+                    placeholder="Confirm your password" required>
+
+                <input type="submit" value="Sign Up">
+            </form>
+            <div class="signup">
+                Already have an account? <a href="#">Log in now!</a>
+            </div>
+        </div>
+        <script>
+    const form = document.querySelector('form');
+const name = document.querySelector('#name');
+const email = document.querySelector('#email');
+const password = document.querySelector('#password');
+const confirmPassword = document.querySelector('#confirm-password');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  // Validate form input
+  if (name.value === '') {
+    alert('Please enter your name.');
+    return;
+  }
+
+  if (email.value === '') {
+    alert('Please enter your email address.');
+    return;
+  }
+
+  if (password.value === '') {
+    alert('Please enter your password.');
+    return;
+  }
+
+  if (confirmPassword.value === '') {
+    alert('Please confirm your password.');
+    return;
+  }
+
+  if (password.value !== confirmPassword.value) {
+    alert('Passwords do not match.');
+    return;
+  }
+
+  // Submit form data to server
+  // TODO: Implement server-side code
+});
+
+</script>
+    </body>
+</html>
