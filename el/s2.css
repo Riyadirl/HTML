@@ -18,7 +18,6 @@ h1 {
     color: #333333;
     margin-bottom: 30px;
 }
-
 form {
     display: flex;
     flex-direction: column;
@@ -52,13 +51,11 @@ input[type="submit"]:hover {
     text-align: center;
     margin-top: 20px;
 }
-
 .signup a {
     color: #2F80ED;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
-
 .signup a:hover {
     color: #2C63B9;
 }
